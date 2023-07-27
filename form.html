@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+
+  <body>
+    <form data-js="form">
+      <fieldset>
+        <legend>Question & Answer</legend>
+        <label for="first-name">Your Question:</label>
+
+        <textarea
+          type="text"
+          name="Question"
+          id="Question"
+          placeholder="hier eingeben"
+          required
+          maxlength="150"
+        >
+        </textarea>
+
+        <label for="last-name">Your Answer:</label>
+        <textarea
+          type="text"
+          name="Answer"
+          id="Answer"
+          placeholder="hier eingeben"
+          required
+          maxlength="150"
+        >
+        </textarea>
+        <label for="text-name">Your Tag:</label>
+        <input type="text" placeholder="Enter your Tag here" />
+      </fieldset>
+    </form>
+    <button type="submit">Submit</button>
+  </body>
+</html>
